@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AC867132E8599740014C291 /* PracticeAssessment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeAssessment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC867292E8599780014C291 /* PracticeAssessment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeAssessment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AC867332E8599780014C291 /* PracticeAssessment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeAssessment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC867132E8599740014C291 /* IncrementCountAndPause.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncrementCountAndPause.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC867292E8599780014C291 /* IncrementCountAndPauseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncrementCountAndPauseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC867332E8599780014C291 /* IncrementCountAndPauseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IncrementCountAndPauseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3AC8673B2E8599780014C291 /* Exceptions for "PracticeAssessment1" folder in "PracticeAssessment1" target */ = {
+		3AC8673B2E8599780014C291 /* Exceptions for "PracticeAssessment1" folder in "IncrementCountAndPause" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 3AC867122E8599740014C291 /* PracticeAssessment1 */;
+			target = 3AC867122E8599740014C291 /* IncrementCountAndPause */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		3AC867152E8599740014C291 /* PracticeAssessment1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3AC8673B2E8599780014C291 /* Exceptions for "PracticeAssessment1" folder in "PracticeAssessment1" target */,
+				3AC8673B2E8599780014C291 /* Exceptions for "PracticeAssessment1" folder in "IncrementCountAndPause" target */,
 			);
 			path = PracticeAssessment1;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		3AC867142E8599740014C291 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3AC867132E8599740014C291 /* PracticeAssessment1.app */,
-				3AC867292E8599780014C291 /* PracticeAssessment1Tests.xctest */,
-				3AC867332E8599780014C291 /* PracticeAssessment1UITests.xctest */,
+				3AC867132E8599740014C291 /* IncrementCountAndPause.app */,
+				3AC867292E8599780014C291 /* IncrementCountAndPauseTests.xctest */,
+				3AC867332E8599780014C291 /* IncrementCountAndPauseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AC867122E8599740014C291 /* PracticeAssessment1 */ = {
+		3AC867122E8599740014C291 /* IncrementCountAndPause */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AC8673C2E8599780014C291 /* Build configuration list for PBXNativeTarget "PracticeAssessment1" */;
+			buildConfigurationList = 3AC8673C2E8599780014C291 /* Build configuration list for PBXNativeTarget "IncrementCountAndPause" */;
 			buildPhases = (
 				3AC8670F2E8599740014C291 /* Sources */,
 				3AC867102E8599740014C291 /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				3AC867152E8599740014C291 /* PracticeAssessment1 */,
 			);
-			name = PracticeAssessment1;
+			name = IncrementCountAndPause;
 			packageProductDependencies = (
 			);
 			productName = PracticeAssessment1;
-			productReference = 3AC867132E8599740014C291 /* PracticeAssessment1.app */;
+			productReference = 3AC867132E8599740014C291 /* IncrementCountAndPause.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3AC867282E8599780014C291 /* PracticeAssessment1Tests */ = {
+		3AC867282E8599780014C291 /* IncrementCountAndPauseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AC867412E8599780014C291 /* Build configuration list for PBXNativeTarget "PracticeAssessment1Tests" */;
+			buildConfigurationList = 3AC867412E8599780014C291 /* Build configuration list for PBXNativeTarget "IncrementCountAndPauseTests" */;
 			buildPhases = (
 				3AC867252E8599780014C291 /* Sources */,
 				3AC867262E8599780014C291 /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				3AC8672C2E8599780014C291 /* PracticeAssessment1Tests */,
 			);
-			name = PracticeAssessment1Tests;
+			name = IncrementCountAndPauseTests;
 			packageProductDependencies = (
 			);
 			productName = PracticeAssessment1Tests;
-			productReference = 3AC867292E8599780014C291 /* PracticeAssessment1Tests.xctest */;
+			productReference = 3AC867292E8599780014C291 /* IncrementCountAndPauseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3AC867322E8599780014C291 /* PracticeAssessment1UITests */ = {
+		3AC867322E8599780014C291 /* IncrementCountAndPauseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3AC867442E8599780014C291 /* Build configuration list for PBXNativeTarget "PracticeAssessment1UITests" */;
+			buildConfigurationList = 3AC867442E8599780014C291 /* Build configuration list for PBXNativeTarget "IncrementCountAndPauseUITests" */;
 			buildPhases = (
 				3AC8672F2E8599780014C291 /* Sources */,
 				3AC867302E8599780014C291 /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				3AC867362E8599780014C291 /* PracticeAssessment1UITests */,
 			);
-			name = PracticeAssessment1UITests;
+			name = IncrementCountAndPauseUITests;
 			packageProductDependencies = (
 			);
 			productName = PracticeAssessment1UITests;
-			productReference = 3AC867332E8599780014C291 /* PracticeAssessment1UITests.xctest */;
+			productReference = 3AC867332E8599780014C291 /* IncrementCountAndPauseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3AC8670E2E8599740014C291 /* Build configuration list for PBXProject "PracticeAssessment1" */;
+			buildConfigurationList = 3AC8670E2E8599740014C291 /* Build configuration list for PBXProject "IncrementCountAndPause" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3AC867122E8599740014C291 /* PracticeAssessment1 */,
-				3AC867282E8599780014C291 /* PracticeAssessment1Tests */,
-				3AC867322E8599780014C291 /* PracticeAssessment1UITests */,
+				3AC867122E8599740014C291 /* IncrementCountAndPause */,
+				3AC867282E8599780014C291 /* IncrementCountAndPauseTests */,
+				3AC867322E8599780014C291 /* IncrementCountAndPauseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		3AC8672B2E8599780014C291 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3AC867122E8599740014C291 /* PracticeAssessment1 */;
+			target = 3AC867122E8599740014C291 /* IncrementCountAndPause */;
 			targetProxy = 3AC8672A2E8599780014C291 /* PBXContainerItemProxy */;
 		};
 		3AC867352E8599780014C291 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3AC867122E8599740014C291 /* PracticeAssessment1 */;
+			target = 3AC867122E8599740014C291 /* IncrementCountAndPause */;
 			targetProxy = 3AC867342E8599780014C291 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +474,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeAssessment1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeAssessment1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IncrementCountAndPause.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IncrementCountAndPause";
 			};
 			name = Debug;
 		};
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeAssessment1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PracticeAssessment1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IncrementCountAndPause.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IncrementCountAndPause";
 			};
 			name = Release;
 		};
@@ -534,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AC8670E2E8599740014C291 /* Build configuration list for PBXProject "PracticeAssessment1" */ = {
+		3AC8670E2E8599740014C291 /* Build configuration list for PBXProject "IncrementCountAndPause" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AC8673F2E8599780014C291 /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AC8673C2E8599780014C291 /* Build configuration list for PBXNativeTarget "PracticeAssessment1" */ = {
+		3AC8673C2E8599780014C291 /* Build configuration list for PBXNativeTarget "IncrementCountAndPause" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AC8673D2E8599780014C291 /* Debug */,
@@ -552,7 +552,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AC867412E8599780014C291 /* Build configuration list for PBXNativeTarget "PracticeAssessment1Tests" */ = {
+		3AC867412E8599780014C291 /* Build configuration list for PBXNativeTarget "IncrementCountAndPauseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AC867422E8599780014C291 /* Debug */,
@@ -561,7 +561,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3AC867442E8599780014C291 /* Build configuration list for PBXNativeTarget "PracticeAssessment1UITests" */ = {
+		3AC867442E8599780014C291 /* Build configuration list for PBXNativeTarget "IncrementCountAndPauseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3AC867452E8599780014C291 /* Debug */,
