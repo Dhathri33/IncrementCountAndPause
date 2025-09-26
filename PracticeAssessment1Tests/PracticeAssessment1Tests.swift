@@ -6,31 +6,40 @@
 //
 
 import XCTest
-@testable import PracticeAssessment1
+@testable import IncrementCountAndPause
 
 final class PracticeAssessment1Tests: XCTestCase {
 
+    var counterViewModel: CounterViewModelProtocol!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+      counterViewModel = CounterViewModel()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+       counterViewModel = nil
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testNumberOfCounters() {
+        XCTAssertEqual(counterViewModel.getNumberOfCounters(), 40)
+        XCTAssertFalse(counterViewModel.getNumberOfCounters() == 0)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testIncrementCount() {
+        counterViewModel.increment(index: [0])
+        counterViewModel.increment(index: [0])
+        XCTAssertEqual(counterViewModel.getCounter(at: 0).count, 2)
+    }
+    
+    func testTogglePause() {
+        counterViewModel.togglePause(index: 0)
+        XCTAssertTrue(counterViewModel.getCounter(at: 0).didPause)
+        counterViewModel.togglePause(index: 0)
+        XCTAssertFalse(counterViewModel.getCounter(at: 0).didPause)
+    }
+    
+    func testGetCounter() {
+        XCTAssertNotNil(counterViewModel.getCounter(at: 0))
     }
 
 }

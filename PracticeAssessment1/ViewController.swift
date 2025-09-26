@@ -40,7 +40,6 @@ class ViewController: UIViewController {
         super.viewDidDisappear(animated)
         stopTimer()
     }
-    
 }
 
 //MARK: TableView DataSource Methods
