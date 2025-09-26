@@ -55,6 +55,7 @@ extension ViewController: UITableViewDataSource {
         let counter = viewModel.getCounter(at: indexPath.row)
         cell.textLabel?.text = "\(counter.count)"
         cell.accessoryType = counter.didPause ? .checkmark : .none
+        cell.backgroundColor = counter.didPause ? .gray : .white
         return cell
     }
 }
